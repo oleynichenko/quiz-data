@@ -1,0 +1,6 @@
+КОПИРОВАНИЕ КОЛЛЕКЦИИ TESTS С БАЗЫ В PRETTY ФОРМАТЕ
+
+mongoexport --host Cluster0-shard-0/cluster0-shard-00-00-pgozq.mongodb.net:27017,cluster0-shard-00-01-pgozq.mongodb.net:27017,cluster0-shard-00-02-pgozq.mongodb.net:27017 --ssl --username tests-dev --password tests-devg_s --authenticationDatabase admin --db quiz --collection tests --pretty --out tests-schema.js
+
+connect to db
+mongo "mongodb+srv://cluster0.hby4m.mongodb.net/quiz-dbs" --username quiz-admin

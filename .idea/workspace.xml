@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11551963-2eaa-4d08-b4a8-452d11120101" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k8J7vr9xeSFWR1SNaEfH5GtD6m" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/knm/lesson-2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oleyn\Dropbox\quiz-data\knm\lesson-2" />
+      <recent name="C:\Users\oleyn\Dropbox\quiz-data\zm" />
+      <recent name="C:\Users\oleyn\Dropbox\quiz-data\knm\lesson-9" />
+      <recent name="C:\Users\oleyn\Dropbox\quiz-data\knm\lesson-7" />
+      <recent name="C:\Users\oleyn\Dropbox\quiz-data\knm\lesson-5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oleyn\Dropbox\quiz-data\90-laws" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11551963-2eaa-4d08-b4a8-452d11120101" name="Default Changelist" comment="" />
+      <created>1605076121009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605076121009</updated>
+      <workItem from="1605076122101" duration="2193000" />
+      <workItem from="1605339725329" duration="9934000" />
+      <workItem from="1605371340575" duration="452000" />
+      <workItem from="1605371808172" duration="8244000" />
+      <workItem from="1605700011918" duration="12796000" />
+      <workItem from="1605892851538" duration="1441000" />
+      <workItem from="1605951184856" duration="11729000" />
+      <workItem from="1606030075699" duration="1448000" />
+      <workItem from="1606406846027" duration="509000" />
+      <workItem from="1606555673186" duration="8200000" />
+      <workItem from="1607193371141" duration="1242000" />
+      <workItem from="1607233135123" duration="5132000" />
+      <workItem from="1607616807070" duration="1199000" />
+      <workItem from="1608377777351" duration="5341000" />
+      <workItem from="1608443726112" duration="1684000" />
+      <workItem from="1609047604512" duration="6402000" />
+      <workItem from="1609600271698" duration="2664000" />
+      <workItem from="1609654316367" duration="2655000" />
+      <workItem from="1610203049621" duration="1624000" />
+      <workItem from="1610299142341" duration="3478000" />
+      <workItem from="1610302765332" duration="252000" />
+      <workItem from="1610560087471" duration="4000" />
+      <workItem from="1610859741293" duration="2758000" />
+      <workItem from="1611035317458" duration="3254000" />
+      <workItem from="1611039645503" duration="39000" />
+      <workItem from="1611387545142" duration="1373000" />
+      <workItem from="1612519049212" duration="3068000" />
+      <workItem from="1613024730221" duration="41000" />
+      <workItem from="1613582461911" duration="660000" />
+      <workItem from="1613794738474" duration="1917000" />
+      <workItem from="1614619535887" duration="5984000" />
+      <workItem from="1614837654905" duration="3607000" />
+      <workItem from="1614967711439" duration="960000" />
+      <workItem from="1615203399261" duration="6275000" />
+      <workItem from="1615442744308" duration="324000" />
+      <workItem from="1616437893321" duration="2365000" />
+      <workItem from="1619328506562" duration="2704000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-867" y="457" width="591" height="539" key="find.popup" timestamp="1614967844584">
+      <screen x="-1920" y="132" width="1920" height="1040" />
+    </state>
+    <state x="665" y="251" width="590" height="538" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607235267794" />
+    <state x="-867" y="457" width="591" height="539" key="find.popup/0.0.5120.1400/-1920.132.1920.1040@-1920.132.1920.1040" timestamp="1614967844584" />
+    <state x="2808" y="438" width="1574" height="725" key="find.popup/0.0.5120.1400@0.0.5120.1400" timestamp="1613796018205" />
+  </component>
+</project>

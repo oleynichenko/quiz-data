@@ -1,0 +1,329 @@
+---
+- wording: |
+    Что входит в понятие "переменная"?
+
+  pointsAvailable: 0.8
+
+  options: 
+    a: Ее имя
+    b: Выделенная для нее область памяти
+    c: Ключевое слово `var`
+    d: Ее значение 
+
+  correctOptions:
+    - a
+    - b
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Выберите правильные варианты объявления переменной `message`.
+
+  pointsAvailable: 0.8
+
+  options:
+    a: `var message;`
+    b: `var message = "Hello";`
+    c: `var message, name = "Сергей";`
+    d: `var name = "Сергей", message;`
+  correctOptions:
+    - a
+    - b
+    - c
+    - d
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Будут ли одинаковыми значения в переменных `admin` и `name`?
+
+  pointsAvailable: 0.8
+
+  code: |
+    var admin, name = "Василий";
+
+  options:
+    a: Да 
+    b: Нет
+
+  correctOptions:
+    - b
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Выберите правильные варианты присвоения значения `"Иван"` переменной `admin`.
+  code: |
+    var admin, name;
+    name = "Иван";
+
+  pointsAvailable: 0.8
+
+  options:
+    a: `name = admin;`
+    b: `admin = name;`
+    c: `admin = "Иван"`
+
+  correctOptions:
+    - b
+    - c
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Выберите варианты с допустимыми именами переменных.
+
+  pointsAvailable: 0.8
+
+  options:
+    a: `var myName;`
+    b: `var _myName;`
+    c: `var my-nme;`'
+    d: `var my_name;`
+    e: `var 1my_name;`
+    f: `var my_name1;`
+    g: `var $my_name;`
+
+  correctOptions:
+    - a
+    - b
+    - d
+    - f
+    - g
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Какой будет результат выполнения кода?
+
+  code: |
+    "use strict"
+
+    var apple = "Яблоко";
+    Apple = apple;
+
+    console.log(Apple);
+
+  pointsAvailable: 1
+
+  options:
+    a: `"Яблоко"`
+    b: `"apple"`
+    c: `"Apple"`
+    d: Будет сгенерирована ошибка
+
+  correctOptions:
+    - d
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Выберите варианты в которых название переменной приведет к генерации исключения.
+
+  pointsAvailable: 0.8
+
+  options:
+    a: `var class;`
+    b: `var Class;`
+    c: `var моеИмя_class;`
+    d: `var export;`
+    e: `var export1;`
+    f: `var 1export;`
+
+  correctOptions:
+    - a
+    - d
+    - f
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Будет ли успешной попытка изменения значения константы `MY_NAME`?
+
+  code: |
+    var MY_NAME = "Саша";
+    
+    MY_NAME = "Batman";
+
+  pointsAvailable: 0.8
+
+  options:
+    a: Да
+    b: Нет
+
+  correctOptions:
+    - a
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Будет ли сгенерирована ошибка при выполнении такого кода?
+
+  code: |
+    var myLevel;
+    
+    "use strict"
+
+    myLevel = "Первый";
+
+  pointsAvailable: 0.8
+
+  options:
+    a: Да
+    b: Нет
+
+  correctOptions:
+    - b
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Какой будет результат выполнения кода?
+
+  code: |
+    let apples = 5;
+
+    if (true) {
+      let apples = 10;
+    }
+
+    console.log(apples);
+
+  pointsAvailable: 0.8
+
+  options:
+    a: `5`
+    b: `10`
+    c: Будет сгенерирована ошибка
+    
+  correctOptions:
+    - a
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Какой будет результат выполнения кода?
+
+  code: |
+    let orandes = 5;
+
+    if (true) {
+      var orandes = 10;
+    }
+
+    console.log(orandes);
+
+  pointsAvailable: 1
+
+  options:
+    a: `5`
+    b: `10`
+    c: Будет сгенерирована ошибка
+
+  correctOptions:
+    - c
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Какой будет результат выполнения кода?
+
+  code: |
+    console.log(a);
+
+    let a = 5;
+
+  pointsAvailable: 0.8
+
+  options:
+    a: `5`
+    b: `undefined`
+    c: Будет сгенерирована ошибка
+
+  correctOptions:
+    - c
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    Какой будет результат выполнения кода?
+
+  code: |
+    for(var i = 0; i < 10; i++) { }
+    for(let i = 10; i < 20; i++) { }
+
+    console.log(i);
+
+  pointsAvailable: 0.8
+
+  options:
+    a: `10`
+    b: `20`
+    c: `undefined`
+    d: Будет сгенерирована ошибка
+
+  correctOptions:
+    - a
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic
+
+- wording: |
+    В каком варианте будет сгенерировано исключение?
+
+  code: |
+    1) const apple = { weight: 100 }; apple.weight = 200; 
+    2) const apple = { weight: 100 }; apple = 200; 
+
+  pointsAvailable: 0.8
+
+  options:
+    a: В первом
+    b: Во втором
+    c: В обоих
+    d: Все варианты сработают без исключений
+
+  correctOptions:
+    - b
+
+  themes: 
+    - js
+    - js-variables
+    - js-basic

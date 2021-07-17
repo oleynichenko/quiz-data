@@ -1,0 +1,139 @@
+[
+  {
+    "content": "В каких случаях будет создан символьный примитив?",
+    "type": "multi",
+    "answers": [
+      "`let sym1 = Symbol();`",
+      "`let sym2 = Symbol(\"number\");`",
+      "`let sym3 = new Symbol();`",
+      "`let sym4 = \"symbol\";`"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "content": "Какая основная причина появления символов в JS?",
+    "type": "single",
+    "answers": [
+      "Необходимость создания уникальных свойств в объектах",
+      "Необходимость создания приватных свойств в объектах",
+      "Нет верных ответов"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "content": "Что будет выведено в консоль? ```js let sym = Symbol(); console.log(typeof sym);",
+    "type": "multi",
+    "answers": [
+      "`Symbol`",
+      "`Object`",
+      "`Function`",
+      "Нет верных ответов"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "content": "Как изменить имя символа с \"name\" на \"mySymbol\"? ```js let sym = Symbol(\"name\");",
+    "type": "multi",
+    "answers": [
+      "`sym.name = \"mySymbol\";`",
+      "`sym[\"name\"] = \"mySymbol\";`",
+      "`Symbol.keyFor(sym) = \"mySymbol\";`",
+      "Никак"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "content": "Почему при запуске этого кода мы увидим в консоли `false`? ```js console.log(Symbol(\"name1\") == Symbol(\"name2\"));",
+    "type": "multi",
+    "answers": [
+      "Поскольку у символов разные имена",
+      "Поскольку каждый символ уникальный",
+      "Вообще-то в консоли будет `true`"
+    ],
+    "correctAnswer": [1]
+  },  
+  {
+    "content": "Выберите верные продолжения фразы: \"Глобальный реестр символов...\"",
+    "type": "multi",
+    "answers": [
+      "хранит символы созданные с помощью синтаксиса `Symbol()`",
+      "хранит символы доступные в глобальной области видимости",
+      "хранит символы созданные с помощью синтаксиса `Symbol.keyFor()`"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "content": "Для чего используется метод `Symbol.for()`?",
+    "type": "multi",
+    "answers": [
+      "Для создания символа",
+      "Для чтения символа",
+      "Для получения имени символа"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "content": "Что будет выведено в консоль после запуска этого кода? ```js let test = Symbol(\"name\"); console.log(Symbol.keyFor(test));",
+    "type": "multi",
+    "answers": [
+      "`\"name\"`",
+      "`undefined`",
+      "`\"Symbol(name)\"`",
+      "Нет верных ответов"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "content": "Как получить из объекта `user` значение его символьного свойства? ```js let isAdmin = Symbol.for(\"myStatus\"); let user = {  name: \"John\",   [isAdmin]: true };",
+    "type": "multi",
+    "answers": [
+      "`user[isAdmin]`",
+      "`user.myStatus`",
+      "`user[Symbol.for(\"myStatus\")]`",
+      "Нет верных ответов"
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "content": "Что будет в консоли после запуска этого кода? ```js let key = Symbol(); let obj = {  key: 1,   [key]: 2}; console.log(obj.key)",
+    "type": "multi",
+    "answers": [
+      "1",
+      "2",
+      "Сообщение о сгенерированном исключении"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "content": "С помощью какого метода можно увидеть символьное свойство объекта `user`? ```js let user = {  name: \"John\",   [Symbol.for(\"isAdmin\")]: true};",
+    "type": "multi",
+    "answers": [
+      "`user.getOwnPropertySymbols()`",
+      "`user.getOwnPropertyNames()`",
+      "`Reflect.ownKeys(user)`",
+      "Такого метода не существует"
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "content": "Что вернет метод `Symbol.for(\"mySymbol\")`, если символа с именем `\"mySymbol\"` в глобальном реестре символов не существует?",
+    "type": "multi",
+    "answers": [
+      "`undefined`",
+      "`null`",
+      "Нет верных ответов"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "content": "Выберите операторы или методы которые \"не видят\" символьные свойства объекта.",
+    "type": "multi",
+    "answers": [
+      "`for...in`",
+      "`Object.keys`",
+      "`Reflect.ownKeys`",
+      "`Object.getOwnPropertyNames`"
+    ],
+    "correctAnswer": [0, 1, 3]
+  }
+ ]
