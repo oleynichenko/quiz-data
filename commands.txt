@@ -4,3 +4,5 @@ mongoexport --host Cluster0-shard-0/cluster0-shard-00-00-pgozq.mongodb.net:27017
 
 connect to db
 mongo "mongodb+srv://cluster0.hby4m.mongodb.net/quiz-dbs" --username quiz-admin
+
+quizg_s
