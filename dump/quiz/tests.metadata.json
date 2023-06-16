@@ -1,1 +1,0 @@
-{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"quiz.tests"},{"v":2,"unique":true,"key":{"id":-1},"name":"id_-1","ns":"quiz.tests"}],"uuid":"241b288febe447d28e70e3b6f2dde9f6"}
