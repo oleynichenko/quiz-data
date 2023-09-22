@@ -1,13 +1,12 @@
 var test = {
-	"id": "7",
+	"id": "41",
 	"enable": true,
-	"title": "Каббала для народов мира: 'Строение мироздания'",
+	"title": "Каббала для народов мира, урок 1 (Что такое каббала)",
 	"questions": {
 		"themes": [
-			"knm-lesson-1"
+			"knm-1"
 		]
 	},
-	"canonLink": "knm-lesson-1",
 	"levels": [
 		{
 			"name": "common",
@@ -15,9 +14,6 @@ var test = {
 			"score": {
 				"min": 0,
 				"max": 90
-			},
-			"recommendation": {
-				"data": "common"
 			}
 		},
 		{
@@ -30,9 +26,6 @@ var test = {
 			},
 			"feedback": {
 				"data": "<p>Отличный результат! Вы безусловно отлично поработали над материалом!</p>"
-			},
-			"recommendation": {
-				"data": "common"
 			}
 		},
 		{
@@ -45,9 +38,6 @@ var test = {
 			},
 			"feedback": {
 				"data": "<p>Чудесно! Вы безусловно являетесь экспертом в этой теме.</p>"
-			},
-			"recommendation": {
-				"data": "common"
 			}
 		},
 		{
@@ -60,51 +50,18 @@ var test = {
 			},
 			"feedback": {
 				"data": "<p>Блестяще! Ваши знания безупречны!</p>"
-			},
-			"recommendation": {
-				"data": "newtest"
 			}
 		}
 	],
-	"images": {
-		"main": "essentialism-main.jpg",
-		"mainTw": "essentialism-main-tw.jpg"
-	},
-	"description": "Оценивает знания полученные на первом занятии 'Строение мироздания' курса 'Каббала для народов мира'. Состоит из 12 вопросов.",
-	"recommendation": {
-		"newtest": "<p>Продолжайте изучение материалов урока ${stuff.articleLink}</p>",
-		"common": "<p>Восполнить обнаруженные пробелы в знаниях вы можете с помощью материалов урока ${stuff.articleLink}</p>"
-	},
-	"stuff": {
-		"articleLink": "<a href=\"https://docs.google.com/document/d/1lbHmBPMoOjRj0v98MecXpRiyN5cqfKvhvpVvVCnLJbA\" target=\"_blank\">Строение мироздания</a>"
-	},
+	"description": "Оценивает знания полученные на первом занятии курса \"Каббала для народов мира\"." +
+		" Состоит из 12 вопросов.",
 	"links": [
 		{
-			"name": "Основная",
-			"permalink": "knm-lesson-1",
-			"interval": null,
-			"time": null,
-			"enable": true,
-			"enabledInfo": true,
-			"goInStat": true,
+			"permalink": "knm-1",
 			"questionsQuantity": 12,
-			"isDisqus": false
 		},
 		{
-			"name": "Все вопросы",
-			"permalink": "knm-lesson-1-full",
-			"interval": null,
-			"time": null,
-			"enable": true,
-			"enabledInfo": true,
-			"goInStat": false
+			"permalink": "knm-1-full",
 		}
-	],
-	"stat": {
-		"levels": {
-			"profi": 90,
-			"expert": 95
-		},
-		"report": {}
-	}
+	]
 };
