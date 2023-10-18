@@ -101,7 +101,7 @@ const questionsData = [
     themes: ['kb-3', 'kb']
   },
   {
-    wording: 'Какому миру паралелен ментальный план?',
+    wording: 'Какому миру соответствует ментальный план?',
     pointsAvailable: 1,
     options: {
       a: 'Ацилут',
@@ -118,7 +118,7 @@ const questionsData = [
     options: {
       a: 'Кадмон',
       b: 'Ацилут',
-      c: 'Єйн Соф',
+      c: 'Эйн Соф',
       d: 'Асия',
       e: 'Наш мир',
     },
@@ -162,12 +162,12 @@ const questionsData = [
     themes: ['kb-3', 'kb']
   },
   {
-    wording: 'Где менее всего раскрыто присутствие Творца?',
+    wording: 'В каком мире из перечисленных меньше всего раскрыто присутствие Творца?',
     pointsAvailable: 1,
     options: {
-      a: 'Ацилут',
-      b: 'Брия',
-      c: 'Ецира',
+      a: 'В Ацилут',
+      b: 'В Брия',
+      c: 'В Ецира',
     },
     correctOptions: ['c'],
     themes: ['kb-3', 'kb']
@@ -183,6 +183,18 @@ const questionsData = [
       e: 'Нет правильных ответов',
     },
     correctOptions: ['е'],
+    themes: ['kb-3', 'kb']
+  },
+  {
+    wording: 'Что такое "Эйн Соф" согласно словарю курса',
+    pointsAvailable: 0.8,
+    options: {
+      a: 'Мир Б-жественности',
+      b: 'Мир Бесконечности',
+      c: 'Творец',
+      d: 'Нет правильных ответов',
+    },
+    correctOptions: ['b'],
     themes: ['kb-3', 'kb']
   },
 ];
